@@ -23,9 +23,5 @@ urlpatterns = [
     path("Analyze", views.analyze, name='analyze')
 ]
 
-'''
-    path("capfirst", views.capfirst, name='capfirst'),
-    path("newlineremover", views.newlineremover, name='newlineremover'),
-    path("spaceremover", views.spaceremover, name='spaceremover'), 
-    path("charcount", views.charcount, name='charcount')'''
+
 
